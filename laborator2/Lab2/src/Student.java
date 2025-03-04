@@ -29,7 +29,7 @@ public class Student {
         int n = preferinte.length;
         for (int i=0; i<n; i++) {
             pref += preferinte[i];
-            pref += ", ";
+            if (i!=n-1) pref += ", ";
         }
         pref += "\n";
         return pref;

@@ -10,10 +10,14 @@ public class Lab2 {
         Project[] l3 = {P3, P4};
         Project[] l4 = {P1, P4};
 
+        P2.setTip(Type.Practical);
+
         Student S1 = new Student("David", l1);
         Student S2 = new Student("Paul", l2);
         Student S3 = new Student("Cosmin", l3);
         Student S4 = new Student("Raul", l4);
+
+        S1.setNume("Robert");
 
         System.out.println(S1);
         System.out.println(S2);
